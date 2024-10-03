@@ -1,5 +1,5 @@
 ![Language](https://img.shields.io/github/languages/top/cortinico/kotlin-android-template?color=blue&logo=kotlin)
-![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.karumi/headerrecyclerview/badge.svg) (https://maven-badges.herokuapp.com/maven-central/com.karumi/headerrecyclerview)
+![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.karumi/headerrecyclerview/badge.svg) 
 # OverScroll
 ==================
 
@@ -16,7 +16,7 @@ Usage
 To use ``HeaderRecyclerView`` in your application follow those steps:
 
 * 1 - Add mavenCentral() to repositories block in the gradle file.
-* 2 - Add `implementation 'com.github.dualbit:overscroll:1.0.0` to the dependencies.
+* 2 - Add `implementation("com.github.dualbit:overscroll:1.0.")` to the dependencies.
 * 3 - Create a normal ``RecyclerView`` and ``RecyclerView.Adapter`` .
 * 4 - Call the extension function ``addOverScrollEdge``. Provide the required ``LifecycleCoroutineScope`` parameter and remember not to configure the ``LayoutManager`` instance on your ``RecyclerView``.
 
